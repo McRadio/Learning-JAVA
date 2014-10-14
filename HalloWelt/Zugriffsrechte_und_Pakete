@@ -1,0 +1,31 @@
+ZugriffsRechte und Pakete (packages)
+
+- private: nur innerhalb der Klasse kann auf die Eigenschaft zugergiffen werden
+
+- protected: Zugriff ist innerhalb der Vererbungshierarchie erlaubt
+	"ABER:	in JAVA haben auch alle Klassen des selben Pakets Zugriff 
+			auf Protected-Elemente
+
+
+- public: öffentlich, Zugriffist von "überall" aus möglich
+
+- <none> : 	bei keiner Zugriffsmodifikation gilt: Alle Klassen des 
+			gleichen Pakets haben Zugriff
+			
+Pakete:
+
+- pakete dienen dem Strukturieren von Quellen und dem Sauberhalten des Namenraums
+- Pakete/Klassen aus fremden Quellen können importiert werden
+
+ mit der Anweisung: "import Paket.*;", "import Paket.KlasseXY;"
+ 
+ -Paketnamen werden werden auf Verzeichnisstrukturen gemappt
+ 
+ - Pakete dürfen weiter unterteilt werden(sub-packages)
+ 
+ - um einen weltweiten Austausch von Paketen zu vereinfachen verwendet man für 
+   Paketnamen üblicherweise Domainnamen
+   
+   www.steve72.de	->de.steve72.java
+   					->de.steve72.java.patterns
+   					->de.steve72.java.patterns.creation
