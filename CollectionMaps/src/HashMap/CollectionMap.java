@@ -24,7 +24,6 @@ public class CollectionMap {
 		}
 		for(Integer i: hmCar.keySet() ){
 			System.out.println(hmCar.get(i));
-			
 		}
 	}
 
