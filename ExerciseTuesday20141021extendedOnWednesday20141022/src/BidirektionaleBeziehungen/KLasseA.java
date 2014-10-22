@@ -1,4 +1,4 @@
-package BidirektionaleBezihungen;
+package BidirektionaleBeziehungen;
 
 public class KLasseA {
 	private KlasseB b= null;

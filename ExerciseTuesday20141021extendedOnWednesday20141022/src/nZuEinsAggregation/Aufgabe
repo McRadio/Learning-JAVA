@@ -1,0 +1,21 @@
+TreeMap<int,Schueler>
+	|
+	+->	+------+		+----------+
+		| Kurs |<>----->| Schueler | 	Aggregation 1:N
+		+------+		+----------+
+		
+	1: ein Schüler soll sich einschreiben können
+	2: alle Kursteilnehmer sollen aufgelistet werden können
+	3: ein Schüler soll den Kurs wieder verlassen können
+	
+	class Kurs
+		private TreeMap<int, schueler> teilehmner;
+						|     |
+   (Nummer des Schülers)[Key],[Value](Schülerobjekt)
+   +-----------------------------------------+
+   | Schueler hoppe = new Schueler(1,Hoppe); |
+   +-----------------------------------------+
+   					|
+   					| in der TreeMap
+   					v
+   	teilnehmer.put(hoppe.getID(),hoppe)

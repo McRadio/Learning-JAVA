@@ -1,4 +1,4 @@
-package BidirektionaleBezihungen;
+package BidirektionaleBeziehungen;
 
 public class MainApp {
 

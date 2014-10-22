@@ -1,7 +1,7 @@
 /**
  * 
  */
-package BidirektionaleBezihungen;
+package BidirektionaleBeziehungen;
 
 /**
  * @author Steinhagen
