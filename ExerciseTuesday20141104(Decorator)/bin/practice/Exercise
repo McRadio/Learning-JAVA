@@ -1,0 +1,14 @@
+Verkettete Liste
+	
+	+-+	 +--+  +--+  +--+  +--+  +-+
+	|A|->|E1|->|E2|->|E3|->|E4|->|E|
+	+-+  +--+  +--+  +--+  +--+  +-+
+
+Objelte einer Klasse die
+(a) einen Wert (Inhalt) speichert
+(b) die Verkettung auf das nächste Elementverwaltet
+
+Verhalten
+(1) neues Element am Ende der Liste anhängen			->	FirstIn/FirstOut
+(2) ein bestehendes Element am Anfang der Liste löschen	->	FirstIn/FirstOut
+(3) Element der Liste ausgeben
